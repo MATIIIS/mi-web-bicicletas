@@ -1,0 +1,6 @@
+/* Llamamos al apodo y le damos color y fondo */
+.mi-titulo {
+    color: white;
+    background-color: blue;
+    padding: 40px;
+}

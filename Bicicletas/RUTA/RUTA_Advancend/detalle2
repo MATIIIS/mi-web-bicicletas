@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle de Bicicleta</title>
+    <link rel="stylesheet" href="..\bicicletas.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>DETALLE DEL PRODUCTO</h1>
+        </header>
+    <a href="..\RUTA.html" class="btn-lobby">Ir al Catálogo</a>
+        <main class="contenedor-producto">
+            
+            <div class="seccion-principal">
+                
+                <div class="galeria-producto">
+                
+                    <div class="miniaturas">
+                        <img src="contend 1.5.jpg">
+                        <img src="contend 2.jpg">
+                        <img src="contend 2.5.jpg">
+                        <img src="contend 3.jpg">
+                        <img src="contend 3.5.jpg">
+                    </div>
+                
+                    <div class="contenedor-central">
+                        <div class="visor-principal">
+                            <img id="img-principal" src="contend_G-N.jpg">
+                        </div>
+                        <div class="miniaturas-inferiores">
+                            <a href="detalle.html">
+                            <img src="CONTEND 1.png">
+                            </a href="detalle.html">
+                            <a href="detalle-negro_morado.html">
+                            <img src="negro-morado.jpg">
+                            </a href="detalle-negro_morado.html">
+                            <a href="detalle-negro.html">
+                            <img src="negro.jpg">
+                            </a href="detalle-negro.html">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="info-lateral">
+                    <h2 id="nombre-producto">CONTEND 1</h2>
+                    <p class="precio-destacado" id="precio-producto" data-precio="4059">S/ 4,059.00</p>
+                    
+                    <form id="formulario-compra">
+                        <label>TALLA:</label>
+                        <select>
+                            <option>L</option>
+                            <option>M</option>
+                            <option>ML</option>
+                            <option>S</option>
+                            <option>SX</option>
+                        </select>
+                        <br>
+
+                        <label>color:</label>
+                        <select>
+                            <option>Gris/Negro</option>
+                            <option>Negro/Morado</option>
+                            <option>Negro</option>
+                            <option>Blanco</option>
+                        </select>
+                        <br>
+
+                        <label>Cantidad:</label>
+                        <select id="cantidad">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        <br>
+                        <label>Forma de pago:</label>
+                        <select id="pago">
+                            <option value="Yape">Yape</option>
+                            <option value="Plin">Plin</option>
+                            <option value="Tarjeta">Tarjeta</option>
+                        </select>
+                        <br>
+                        <button type="submit" class="btn-comprar">AGREGAR AL CARRITO / COMPRAR</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="seccion-detalles">
+                <h3>HISTORIA DEL PRODUCTO</h3>
+                <p>Diseñada para los aspirantes a ciclistas de ruta, la Contend 1 ofrece una calidad de conducción suave y rápida. Su marco de aluminio ligero combina una geometría equilibrada con componentes confiables.</p>
+                
+                <h3>DETALLES</h3>
+                <ul>
+                    <li>Cuadro: Aluminio de grado ALUXX.</li>
+                    <li>Horquilla: Advanced-Grade Composite.</li>
+                    <li>Transmisión: Shimano Sora, 2x9 velocidades.</li>
+                    <li>Frenos: Tektro TK-B177.</li>
+                    <li>Llantas: Giant S-R3 AC, 700x28c.</li>
+                </ul>
+            </div>
+
+        </main>
+
+    </body>
+    </html>

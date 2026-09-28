@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle de Bicicleta - MDC CYCLES</title>
+    <link rel="stylesheet" href="../../bicicletas.css">
+</head>
+<body>
+
+    <header class="cabecera-sitio">
+        <div class="contenedor-cabecera">
+            <a href="../../index.html" class="contenedor-logo">
+                <span class="logo-mdc">MDC</span><br>
+                <span class="logo-cycles">CYCLES</span>
+            </a>
+            <nav class="navegacion">
+                <a href="../../index.html">INICIO</a>
+                <a href="../../index.html#categorias">CATEGORÍAS</a>
+                <a href="../../index.html#nosotros">NOSOTROS</a>
+                <a href="../../index.html#contacto">CONTACTO</a>
+            </nav>
+            <div class="contenedor-carrito-menu" style="display: flex; gap: 15px; align-items: center; color: white;">
+                <div style="position: relative; cursor: pointer;">
+                    <span style="font-size: 20px;">🛒</span>
+                    <span class="contador-carrito" style="position: absolute; top: -8px; right: -10px; background: #10b981; color: white; border-radius: 50%; padding: 2px 6px; font-size: 12px;">0</span>
+                </div>
+                <span style="font-size: 20px; cursor: pointer;">👤</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor-producto">
+        
+        <div style="margin-bottom: 20px;">
+            <a href="../../E-BIKES.html" class="boton-verde" style="display: inline-block;">← Ir al Catálogo</a>
+        </div>
+            
+        <div class="seccion-principal">
+            
+            <div class="galeria-producto">
+                
+                <div class="miniaturas">
+                    <img src="BK6.jpg">
+                    <img src="BK2.jpg">
+                    <img src="BK3.jpg">
+                    <img src="BK4.jpg">
+                    <img src="BK5.jpg">
+                </div>
+            
+                <div class="contenedor-central">
+                    <div class="visor-principal">
+                        <br><br>
+                        <img id="img-principal" src="BK1.jpg">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="info-lateral">
+                <h2 id="nombre-producto">E-BIKE GIANT REIGN ADVANCED E+1 ARO 29"</h2>
+                <p class="precio-destacado" id="precio-producto" data-precio="8075">S/ 8,075.00</p>
+                
+                <form id="formulario-compra">
+                    <label>TALLA:</label>
+                    <select>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>ML</option>
+                        <option>S</option>
+                        <option>SX</option>
+                    </select>
+                    <br>
+
+                    <label>color:</label>
+                    <select>
+                        <option>Blanco</option>
+                        <option>Negro</option>
+                    </select>
+                    <br>
+
+                    <label>Cantidad:</label>
+                    <select id="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <br>
+                    <label>Forma de pago:</label>
+                    <select id="pago">
+                        <option value="Yape">Yape</option>
+                        <option value="Plin">Plin</option>
+                        <option value="Tarjeta">Tarjeta</option>
+                    </select>
+                    <br>
+                    <button type="submit" class="btn-comprar">AGREGAR AL CARRITO / COMPRAR</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="seccion-detalles">
+            <h3>HISTORIA DEL PRODUCTO</h3>
+            <p>Diseñada para ser la mejor e-MTB de descenso del mercado, la Giant Reign Advanced E+ 1 Mercury/Carbon Smoke es una bicicleta eléctrica de enduro de alto rendimiento que combina una suspensión Maestro de largo recorrido, un potente motor de asistencia y un cuadro de carbono ultraligero y rígido. Equipada con el sistema SyncDrive Pro 3 de 48V y una batería integrada de alta eficiencia, ofrece una potencia explosiva y un control absoluto para devorar los descensos más técnicos y escalar con total soltura.</p>
+            
+            <h3>DETALLES</h3>
+            <ul>
+                <li>Cuadro: Advanced-grade composite frame con triángulo principal y basculante de carbono, bieleta superior Advanced Forged Composite, sistema de suspensión Maestro de 170 mm de recorrido y geometría ajustable mediante Flip Chip.</li>
+                <li>Motor y Batería: Motor ultra ligero SyncDrive Pro 3 (desarrollado con Yamaha) de 90 Nm de torque y 800W de potencia pico, sistema de 48V, con batería integrada EnergyPak Smart de 560 Wh (compatible con el extensor de rango EnergyPak Plus de 280 Wh).</li>
+                <li>Control y Pantalla: Mando integrado RideControl Ergo 4 en el manillar y pantalla/botón multifunción RideControl GO Lux integrada en el cuadro con indicador de presión de neumáticos Aegis.</li>
+                <li>Horquilla: Fox 38 Performance Elite E-Tuned para 29", 180 mm de recorrido, cartucho Grip X2 damper, eje pasante Kabolt-X de 110x15 mm Boost.</li>
+                <li>Amortiguador trasero: Fox Float X Performance, con sleeve EVOL Large Volume, anclaje Trunnion de 205x65 mm, custom tuned.</li>
+                <li>Transmisión: Sistema electrónico/mecánico SRAM Eagle 90 T-Type de 1x12 velocidades, plato Praxis e-HD de 36T con bielas forjadas y cassette SRAM Eagle Transmission de 10-52T.</li>
+                <li>Frenos: Frenos de disco hidráulicos TRP DH-R EVO de 4 pistones con rotores de gran diámetro de 220 mm tanto adelante como atrás para una potencia de frenado extrema.</li>
+                <li>Llantas / Neumáticos: Configuración de ruedas Mullet (Giant e-TRA Hookless de aleación con ancho interno de 30 mm, 29" adelante y 27.5" atrás) con neumáticos Maxxis Assegai 29"x2.5" 3C MaxxGrip EXO+ al frente y Maxxis Minion DHR II 27.5"x2.4" 3C MaxxGrip DoubleDown atrás, tubeless ready.</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer class="footer-principal">
+        <div class="footer-contenedor">
+            <div class="footer-columna">
+                <h3>AYUDA</h3>
+                <ul>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">Métodos de pago</a></li>
+                    <li><a href="#">Tipos de envío</a></li>
+                    <li><a href="#">Promociones y legales</a></li>
+                    <li><a href="#">Cambios, devoluciones y garantías</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                </ul>
+                <a href="#" class="btn-reclamaciones">LIBRO DE RECLAMACIONES <span>📓</span></a>
+            </div>
+            <div class="footer-columna">
+                <h3>SERVICIOS</h3>
+                <ul>
+                    <li><a href="#">Tiendas</a></li>
+                    <li><a href="#">Políticas de privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Guía de tallas</a></li>
+                    <li><a href="#">Cuidado de tus bicicletas</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h3>ACERCA DE NOSOTROS</h3>
+                <ul>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                    <li><a href="#">Acerca de la empresa</a></li>
+                    <li><a href="#">Noticias Corporativas</a></li>
+                    <li><a href="#">Sustentabilidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h3>MANTENTE AL DÍA</h3>
+                <p>Inscríbete y obtén 20% de descuento en tu primera compra</p>
+                <form class="form-suscripcion">
+                    <input type="email" placeholder="Ingresa tu correo electrónico" required>
+                    <button type="submit">SUSCRIBIRME</button>
+                </form>
+                <div class="redes-sociales">
+                    <a href="#">FB: Mathias Pz</a>
+                    <a href="#">X</a>
+                    <a href="#">IG</a>
+                    <a href="#">YT: Mathias Samir De la cruz Perez</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-inferior">
+            <div class="enlaces-legales">
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Configurador de cookies</a>
+                <p>&copy; 2026. Todos los derechos reservados</p>
+            </div>
+            <div class="iconos-pago">
+                <span class="pago-icono">VISA</span>
+                <span class="pago-icono">MC</span>
+                <span class="pago-icono">AMEX</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

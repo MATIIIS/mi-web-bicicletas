@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle de Bicicleta - MDC CYCLES</title>
+    <link rel="stylesheet" href="../../bicicletas.css">
+</head>
+<body>
+
+    <header class="cabecera-sitio">
+        <div class="contenedor-cabecera">
+            <a href="../../index.html" class="contenedor-logo">
+                <span class="logo-mdc">MDC</span><br>
+                <span class="logo-cycles">CYCLES</span>
+            </a>
+            <nav class="navegacion">
+                <a href="../../index.html">INICIO</a>
+                <a href="../../index.html#categorias">CATEGORÍAS</a>
+                <a href="../../index.html#nosotros">NOSOTROS</a>
+                <a href="../../index.html#contacto">CONTACTO</a>
+            </nav>
+            <div class="contenedor-carrito-menu" style="display: flex; gap: 15px; align-items: center; color: white;">
+                <div style="position: relative; cursor: pointer;">
+                    <span style="font-size: 20px;">🛒</span>
+                    <span class="contador-carrito" style="position: absolute; top: -8px; right: -10px; background: #10b981; color: white; border-radius: 50%; padding: 2px 6px; font-size: 12px;">0</span>
+                </div>
+                <span style="font-size: 20px; cursor: pointer;">👤</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor-producto">
+        
+        <div style="margin-bottom: 20px;">
+            <a href="../../RUTA.html" class="boton-verde" style="display: inline-block;">← Ir al Catálogo</a>
+        </div>
+            
+        <div class="seccion-principal">
+            <div class="galeria-producto">
+                <div class="miniaturas">
+                    <img src="Advancend2.jpg">
+                    <img src="Advancend3.jpg">
+                    <img src="Advancend4.jpg">
+                    <img src="Advancend5.jpg">
+                    <img src="Advancend6.jpg">
+                </div>
+            
+                <div class="contenedor-central">
+                    <div class="visor-principal">
+                        <img id="img-principal" src="DT4.jpg">
+                    </div>
+                    <div class="miniaturas-inferiores">
+                        <a href="detalle.html">
+                            <img src="ADVANCEND1.jpg">
+                        </a>
+                        <a href="detalle2.html">
+                            <img src="DT2.jpg">
+                        </a>
+                        <a href="detalle3.html">
+                            <img src="DT3.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-lateral">
+                <h2 id="nombre-producto">TCR ADVANCED 1</h2>
+                <p class="precio-destacado" id="precio-producto" data-precio="4059">S/ 10,498.00</p>
+                
+                <form id="formulario-compra">
+                    <label>TALLA:</label>
+                    <select>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>ML</option>
+                        <option>S</option>
+                        <option>SX</option>
+                    </select>
+                    <br>
+
+                    <label>color:</label>
+                    <select>
+                        <option>Dreamy Blue</option>
+                        <option>Asphalt Green</option>
+                        <option>Mars Dust</option>
+                        <option>Purple Haze</option>
+                    </select>
+                    <br>
+
+                    <label>Cantidad:</label>
+                    <select id="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <br>
+                    <label>Forma de pago:</label>
+                    <select id="pago">
+                        <option value="Yape">Yape</option>
+                        <option value="Plin">Plin</option>
+                        <option value="Tarjeta">Tarjeta</option>
+                    </select>
+                    <br>
+                    <button type="submit" class="btn-comprar">AGREGAR AL CARRITO / COMPRAR</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="seccion-detalles">
+            <h3>HISTORIA DEL PRODUCTO</h3>
+            <p>Diseñada para ofrecer un rendimiento de nivel de competencia en carretera, la TCR Advanced 1 combina una eficiencia de pedaleo superior con una aerodinámica avanzada. Su cuadro de carbono ligero y su geometría optimizada garantizan una aceleración explosiva y un control total en cada curva.</p>
+            
+            <h3>DETALLES</h3>
+            <ul>
+                <li>Cuadro: Advanced-Grade Composite, con eje pasante de 12x142mm.</li>
+                <li>Horquilla: Advanced-Grade Composite, con tubo de dirección OverDrive de carbono.</li>
+                <li>Transmisión: Shimano 105 Di2 (electrónica), de 2x12 velocidades.</li>
+                <li>Frenos: Shimano 105 Di2 hidráulicos con rotores de disco.</li>
+                <li>Llantas: Giant P-R1 Disc (tubeless ready) con cubiertas Giant Gavia Course 1, 700x28c.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer-principal">
+        <div class="footer-contenedor">
+            <div class="footer-columna">
+                <h3>AYUDA</h3>
+                <ul>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">Métodos de pago</a></li>
+                    <li><a href="#">Tipos de envío</a></li>
+                    <li><a href="#">Promociones y legales</a></li>
+                    <li><a href="#">Cambios, devoluciones y garantías</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                </ul>
+                <a href="#" class="btn-reclamaciones">LIBRO DE RECLAMACIONES <span>📓</span></a>
+            </div>
+            <div class="footer-columna">
+                <h3>SERVICIOS</h3>
+                <ul>
+                    <li><a href="#">Tiendas</a></li>
+                    <li><a href="#">Políticas de privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Guía de tallas</a></li>
+                    <li><a href="#">Cuidado de tus bicicletas</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h3>ACERCA DE NOSOTROS</h3>
+                <ul>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                    <li><a href="#">Acerca de la empresa</a></li>
+                    <li><a href="#">Noticias Corporativas</a></li>
+                    <li><a href="#">Sustentabilidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h3>MANTENTE AL DÍA</h3>
+                <p>Inscríbete y obtén 20% de descuento en tu primera compra</p>
+                <form class="form-suscripcion">
+                    <input type="email" placeholder="Ingresa tu correo electrónico" required>
+                    <button type="submit">SUSCRIBIRME</button>
+                </form>
+                <div class="redes-sociales">
+                    <a href="#">FB: Mathias Pz</a>
+                    <a href="#">X</a>
+                    <a href="#">IG</a>
+                    <a href="#">YT: Mathias Samir De la cruz Perez</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-inferior">
+            <div class="enlaces-legales">
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Configurador de cookies</a>
+                <p>&copy; 2026. Todos los derechos reservados</p>
+            </div>
+            <div class="iconos-pago">
+                <span class="pago-icono">VISA</span>
+                <span class="pago-icono">MC</span>
+                <span class="pago-icono">AMEX</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle de Bicicleta - MDC CYCLES</title>
+    <link rel="stylesheet" href="../../bicicletas.css">
+</head>
+<body>
+
+    <header class="cabecera-sitio">
+        <div class="contenedor-cabecera">
+            <a href="../../index.html" class="contenedor-logo">
+                <span class="logo-mdc">MDC</span><br>
+                <span class="logo-cycles">CYCLES</span>
+            </a>
+            <nav class="navegacion">
+                <a href="../../index.html">INICIO</a>
+                <a href="../../index.html#categorias">CATEGORÍAS</a>
+                <a href="../../index.html#nosotros">NOSOTROS</a>
+                <a href="../../index.html#contacto">CONTACTO</a>
+            </nav>
+            <div class="contenedor-carrito-menu" style="display: flex; gap: 15px; align-items: center; color: white;">
+                <div style="position: relative; cursor: pointer;">
+                    <span style="font-size: 20px;">🛒</span>
+                    <span class="contador-carrito" style="position: absolute; top: -8px; right: -10px; background: #10b981; color: white; border-radius: 50%; padding: 2px 6px; font-size: 12px;">0</span>
+                </div>
+                <span style="font-size: 20px; cursor: pointer;">👤</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor-producto">
+        
+        <div style="margin-bottom: 20px;">
+            <a href="../../RUTA.html" class="boton-verde" style="display: inline-block;">← Ir al Catálogo</a>
+        </div>
+            
+        <div class="seccion-principal">
+            <div class="galeria-producto">
+                <div class="miniaturas">
+                    <img src="PRO1.jpg">
+                    <img src="PRO2.jpg">
+                    <img src="PRO3.jpg">
+                    <img src="PRO4.jpg">
+                    <img src="PRO5.jpg">
+                </div>
+            
+                <div class="contenedor-central">
+                    <div class="visor-principal">
+                        <img id="img-principal" src="PRO-blue.jpg">
+                    </div>
+
+                    <div class="miniaturas-inferiores">
+                        <a href="detalle.html">
+                            <img src="PRO1.jpg">
+                        </a>
+                        <a href="detalle-PRO-black.html">
+                            <img src="PRO-black.jpg">
+                        </a>
+                        <a href="detalle-PRO-naranja.html">
+                            <img src="PRO-naranja.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-lateral">
+                <h2 id="nombre-producto">TCR ADVANCED PRO-0 AXS</h2>
+                <p class="precio-destacado" id="precio-producto" data-precio="4059">S/ 4,059.00</p>
+                
+                <form id="formulario-compra">
+                    <label>TALLA:</label>
+                    <select>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>ML</option>
+                        <option>S</option>
+                        <option>SX</option>
+                    </select>
+                    <br>
+
+                    <label>color:</label>
+                    <select>
+                        <option>Ocean Twilight</option>
+                        <option>Chrome</option>
+                        <option>Dura-Ace</option>
+                        <option>Glare Chrome</option>
+                    </select>
+                    <br>
+
+                    <label>Cantidad:</label>
+                    <select id="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <br>
+                    <label>Forma de pago:</label>
+                    <select id="pago">
+                        <option value="Yape">Yape</option>
+                        <option value="Plin">Plin</option>
+                        <option value="Tarjeta">Tarjeta</option>
+                    </select>
+                    <br>
+                    <button type="submit" class="btn-comprar">AGREGAR AL CARRITO / COMPRAR</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="seccion-detalles">
+            <h3>HISTORIA DEL PRODUCTO</h3>
+            <p>Diseñada para los ciclistas de carretera que buscan rendimiento de nivel competitivo, la TCR ADVANCED PRO-0 AXS destaca por su optima relación rigidez-peso y eficiencia aerodinámica. Su cuadro de carbono de grado Advanced con tubo de dirección OverDrive Aero ofrece una conducción rápida, precisa y estable tanto en ascensos exigentes como en descensos a alta velocidad.</p>
+            
+            <h3>DETALLES</h3>
+            <ul>
+                <li>Cuadro: Carbono de grado Advanced-Grade Composite con guiado interno de cables y cierre de tija integrado.</li>
+                <li>Horquilla: Carbono Advanced SL-Grade Composite, tubo de dirección OverDrive Aero full-carbon.</li>
+                <li>Transmisión: SRAM Force AXS E1 de 2x12 velocidades (electrónica e inalámbrica) con potenciómetro integrado en las bielas</li>
+                <li>Frenos: Disco hidráulico SRAM Force E1 con discos SRAM CenterLine XR (160 mm delantero / 140 mm trasero).</li>
+                <li>Ruedas: Giant SLR 0 40 WheelSystem de carbono con radios aerodinámicos de carbono.</li>
+                <li>Llantas / Neumáticos: CADEX Road Race GC, tubeless, 700x30c (soporta hasta 33 mm).</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer-principal">
+        <div class="footer-contenedor">
+            <div class="footer-columna">
+                <h3>AYUDA</h3>
+                <ul>
+                    <li><a href="#">Centro de ayuda</a></li>
+                    <li><a href="#">Métodos de pago</a></li>
+                    <li><a href="#">Tipos de envío</a></li>
+                    <li><a href="#">Promociones y legales</a></li>
+                    <li><a href="#">Cambios, devoluciones y garantías</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                </ul>
+                <a href="#" class="btn-reclamaciones">LIBRO DE RECLAMACIONES <span>📓</span></a>
+            </div>
+            <div class="footer-columna">
+                <h3>SERVICIOS</h3>
+                <ul>
+                    <li><a href="#">Tiendas</a></li>
+                    <li><a href="#">Políticas de privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Guía de tallas</a></li>
+                    <li><a href="#">Cuidado de tus bicicletas</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h3>ACERCA DE NOSOTROS</h3>
+                <ul>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                    <li><a href="#">Acerca de la empresa</a></li>
+                    <li><a href="#">Noticias Corporativas</a></li>
+                    <li><a href="#">Sustentabilidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h3>MANTENTE AL DÍA</h3>
+                <p>Inscríbete y obtén 20% de descuento en tu primera compra</p>
+                <form class="form-suscripcion">
+                    <input type="email" placeholder="Ingresa tu correo electrónico" required>
+                    <button type="submit">SUSCRIBIRME</button>
+                </form>
+                <div class="redes-sociales">
+                    <a href="#">FB: Mathias Pz</a>
+                    <a href="#">X</a>
+                    <a href="#">IG</a>
+                    <a href="#">YT: Mathias Samir De la cruz Perez</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-inferior">
+            <div class="enlaces-legales">
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Configurador de cookies</a>
+                <p>&copy; 2026. Todos los derechos reservados</p>
+            </div>
+            <div class="iconos-pago">
+                <span class="pago-icono">VISA</span>
+                <span class="pago-icono">MC</span>
+                <span class="pago-icono">AMEX</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
